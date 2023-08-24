@@ -1,0 +1,92 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.bg {
+  background-color: #2a2f4f;
+  padding: 30px 0;
+}
+
+.text {
+    text-align: center;
+    color: #2a2f4f;
+}
+
+.form-heading {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.form-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: transparent;
+  margin: 20px 0;
+}
+
+.add-btn {
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  background-color: #9384d1;
+  border: 2px solid #9384d1;
+  font-weight: 600;
+}
+
+.add-btn:hover {
+  background-color: white;
+  color: #9384d1;
+  transition: 600ms;
+}
+
+.list {
+  padding: 10px 0;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 2px solid #d9d5fe;
+  box-shadow: 4px 4px #eef1ff;
+  border-radius: 8px;
+}
+
+.list input {
+  margin-right: 15px;
+}
+
+.delete-btn {
+  padding: 6px 16px;
+  border-radius: 8px;
+  color: white;
+  background-color: #ff8b13;
+  border: 2px solid #ff8b13;
+}
+
+.delete-btn:hover {
+  background-color: white;
+  color: salmon;
+  transition: 600ms;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 80%;
+  }
+}
